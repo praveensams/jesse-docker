@@ -15,6 +15,6 @@ COPY nginx.conf /etc/nginx/
 
 RUN chmod +x /bin/share
 
-CMD ["nginx","-g","daemon off;"]
+CMD ["/bin/share"]
 
 
